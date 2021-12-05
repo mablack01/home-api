@@ -1,6 +1,12 @@
 # home-api
 This project is a Python API wrapper to access information on a home owner's property. The application utilizes [Flask](https://flask.palletsprojects.com/en/2.0.x/) for the API base.
 
+## Documentation
+API documentation is generated using Swagger and `flask-restx`.
+
+While the application is running, you can find documentation on the following page: http://localhost:5000/
+![Documentation](https://i.imgur.com/4H8eulV.png)
+
 ## Setup
 In order to use this project, you must install a version of python3 and pip3. You can check if you have the proper version install by using the following commands: 
 ```
@@ -46,7 +52,7 @@ Once you have the correct packages installed, you can follow the next few steps 
    python3 -m pip install -r requirements.txt
    ```
 4. Run the application
-      ### Windows
+   ### Windows
    ```
    py start.py
    ```
