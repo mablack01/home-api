@@ -67,3 +67,7 @@ Once you have the correct packages installed, you can follow the next few steps 
    ```
 
 If you made it to step 4 your application should be live. You can access the endpoints via `http://127.0.0.1:5000/`.
+
+## Next Steps
+- Create a mock api wrapper so that we can write unit tests for the `/home/septic` endpoint without having access to the Home Canary API.
+- Implement the authentication pseudocode using JWT and a SQL database, wrapping the `/home/` endpoints for authenticated users only.
